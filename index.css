@@ -1,0 +1,65 @@
+body{
+    background-color: #1b1d18;
+}
+.container {
+width: 700px;
+background-color: white;
+margin: auto;
+box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+#display {
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+text-align: right;
+height: 100px;
+line-height: 70px;
+padding: 16px 8px;
+font-size: 65px;
+}
+.buttons {
+display: grid;
+margin-top: 10px;
+margin-bottom: 10px;
+border-bottom: 1px solid #999;
+border-left: 1px solid#999;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 4rem;
+border-top: 1px solid #999;
+height: 120px;
+border-right: 1px solid#999;
+border-radius: 1rem;
+}
+#equal {
+background-color: rgb(85, 85, 255);
+color: white;
+}
+.button:hover {
+background-color: #323330;
+color: white;
+transform: scale(1.1);
+/* transition: 0.5s ease-in-out; */
+}
+.cancel{
+background-color: red;
+}
+.cancel:hover{
+background-color: red;
+}
+.heading{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+h1{
+color: white;
+font-family: cursive;
+font-size: 4rem;
+}
